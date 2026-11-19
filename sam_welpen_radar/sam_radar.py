@@ -32,7 +32,7 @@ import ssl
 from datetime import datetime
 from sqlalchemy import Column, DateTime, Integer, String, create_engine, insert, update, and_, func, select
 from sqlalchemy.orm import declarative_base, sessionmaker, Session
-import sam_core.sql_schema as sql_schema
+from sam_core import sql_schema
 
 load_dotenv()
 
